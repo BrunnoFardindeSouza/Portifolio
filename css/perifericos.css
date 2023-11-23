@@ -1,0 +1,28 @@
+.fixar{
+    top: 0;
+    width: 100%;
+}
+.projetos{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subtitles{
+    max-height: 20%;
+    background-color: rgba(0, 0, 139, 0.582);
+}
+.desc{
+    min-height: 40%;
+    background-color: #00008b91;
+}
+.desc > p{
+    font-size: 1.1em;
+    max-width: 80%;
+    line-height: 28px;
+    text-align: center;
+}

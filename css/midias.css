@@ -1,0 +1,123 @@
+/* Mobile*/
+nav{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    
+}
+nav ul{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+nav ul li{
+    line-height: 28px;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+#selected{
+    transition: 1s;
+    border-bottom: 2px solid darkgray;
+}
+nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+nav > .links{
+    width:50%;
+}
+nav > .inputs{
+    width: 100%;
+    height: 34px;
+ 
+}
+.projetos{
+    width: 100%;
+    display: flex;
+    height: 270px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    transition: 1s;
+    animation-timing-function: ease;
+    justify-content: space-around;
+}
+.projetos section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:490px) and (orientation:landscape){
+
+}
+
+/*PCs Notbooks..*/
+
+@media screen and (min-width:490px) and (orientation:landscape){
+    main{
+        background:var(--cor1) url('../img/fundo.svg') center no-repeat;
+        background-size: contain;
+    }
+    main section.pdts{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .projetos{
+        margin-top: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        max-width: 500px;
+        margin-left: 20px;
+        
+       
+    }
+    .projetos:hover{
+        background-color: rgba(193, 193, 171, 0.843);
+    }
+    nav ul{
+        margin-top: 10px;
+        font-size: 1.2em;
+        justify-content: space-around;
+    }
+    nav ul li{
+        padding: 2px;
+        width: 100px;
+        margin-left: 10px;
+        border-radius: 5px;
+        text-align: center;
+        border: 2px solid white;
+    }
+    nav ul li:hover{
+        background-color: blue;
+
+    }
+    nav ul li:active{
+        background-color: red;
+       
+    }
+    #selected{
+        border: 2px solid white;
+        background-color: blue;
+    }
+    .desc > p{
+        font-size: 1.1em;
+        text-indent: 28px;
+    }
+}
+@media screen and (min-width:490px){
+
+
+
+}
